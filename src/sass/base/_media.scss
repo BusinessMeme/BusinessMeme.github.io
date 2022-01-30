@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+    .promo {
+        padding: 21px 20px 93px 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header {
+        flex-direction: column;
+    }
+    .header__logo {
+        img {
+            width: 250px;
+        }
+    }
+    .header__official {
+        margin-top: 20px;
+        font-size: 19px;
+        span {
+            font-size: 24px;
+        }
+    }
+    .header__contacts {
+        margin-top: 20px;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .promo__header {
+        text-align: center;
+        font-size: 40px;
+    }
+    .promo__subheader {
+        text-align: center;
+        font-size: 25px;
+    }
+    .promo__icons {
+        width: 100%;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+}
