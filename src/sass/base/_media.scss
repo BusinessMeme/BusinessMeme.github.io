@@ -7,37 +7,46 @@
 @media (max-width: 540px) {
     .header {
         flex-direction: column;
-    }
-    .header__logo {
-        img {
-            width: 250px;
+        &__logo {
+            img {
+                width: 250px;
+            }
+        }
+        &__official {
+            margin-top: 20px;
+            font-size: 19px;
+            span {
+                font-size: 24px;
+            }
+        }
+        &__contacts {
+            margin-top: 20px;
+        }
+        &__phone {
+            font-size: 16px;
         }
     }
-    .header__official {
-        margin-top: 20px;
-        font-size: 19px;
-        span {
-            font-size: 24px;
+    .promo {
+        &__header {
+            text-align: center;
+            font-size: 40px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 25px;
+        }
+        &__icons {
+            width: 100%;
+        }
+        &__wrapper {
+            align-items: center;
         }
     }
-    .header__contacts {
-        margin-top: 20px;
-    }
-    .header__phone {
-        font-size: 16px;
-    }
-    .promo__header {
-        text-align: center;
-        font-size: 40px;
-    }
-    .promo__subheader {
-        text-align: center;
-        font-size: 25px;
-    }
-    .promo__icons {
-        width: 100%;
-    }
-    .promo__wrapper {
-        align-items: center;
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
