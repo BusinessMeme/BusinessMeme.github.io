@@ -6,9 +6,20 @@
     .consultation {
         padding: 100px 20px 92px 20px;
     }
+    .carousel {
+        img {
+            width: 60%;
+        } 
+        .prev {
+            left: -10px;
+        }   
+        .next {
+            right: -10px;
+        }
+    }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
         &__logo {
@@ -65,6 +76,29 @@
         .feed-form {
             margin: 0 auto;
             margin-top: 36px;
+        }
+    }
+    .carousel {
+        img {
+            width: 100%;
+        }
+        button {
+            margin-left: 5px;
+            margin-top: 10px;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            border-style: none;
+        }        
+        .tns-nav-active {
+            background-color: $main-color;
+        }
+        .prev, .next {
+            display: none;
+        }
+        .tns-nav {
+            display: flex;
+            justify-content: center;
         }
     }
 }
