@@ -41,6 +41,9 @@
             font-size: 16px;
         }
     }
+    .title {
+        font-size: 25px;
+    }
     .promo {
         &__header {
             text-align: center;
@@ -104,6 +107,59 @@
         .tns-nav {
             display: flex;
             justify-content: center;
+        }
+    }
+    .catalog {
+        &__tabs {
+            justify-content: center;
+        }
+        &__tab {
+            width: 89px;
+            height: 36px;
+            font-size: 9px;
+            line-height: 35px;
+        }
+        &__content {
+            justify-content: center;
+        }
+        .catalog-item {
+            margin-right: 0px;
+            width: 160px;
+            &__content {
+                transform: translateX(-122%);
+            }
+            &__content_active {
+                margin-right: 0px;
+                transform: translateX(0%);
+            }
+            &__descr {
+                font-size: 12px;
+            }
+            &__list {
+                li {
+                    font-size: 10px;
+                }
+            }
+            &__old-price {
+                font-size: 9px;
+            }
+            &__price {
+                font-size: 11px;
+            }
+            button {
+                width: 58px;
+                height: 30px;
+                font-size: 11px;
+            }
+        }
+    }
+    .feedback {
+        &__item {
+            padding-left: 5px;
+        }
+        &__text {
+            padding-right: 5px;
+            margin-left: 30px;
         }
     }
 }
